@@ -1,0 +1,58 @@
+.Zyzz {
+  margin-top: 100px;
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  margin-left: 35%;
+  margin-right: 35%;
+  box-shadow: 0 8px 8px -4px rgb(74, 72, 72);
+}
+
+.welcum {
+  font-size: 45px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 170px;
+}
+
+body {
+  background-color: rgb(202, 141, 221);
+  height: 1000px;
+}
+
+.Profil {
+  width: 200px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgb(229, 106, 106);
+  padding: 25px;
+  font-size: 25px;
+  /* margin-right: 100px;
+  margin-left: 100px; */
+  margin: 0 auto;
+  box-shadow: 0 8px 8px -4px rgb(74, 72, 72);
+}
+
+.Daftar-Hobi {
+  width: 250px;
+  border-radius: 10px;
+  background-color: rgb(141, 240, 95);
+  padding: 30px;
+  font-size: 25px;
+  margin-left: 150px;
+  margin-top: 40px;
+  box-shadow: 0 8px 8px -4px rgb(74, 72, 72);
+}
+
+.FavMusic {
+  width: 250px;
+  border-radius: 10px;
+  background-color: rgb(64, 230, 224);
+  padding: 30px;
+  font-size: 25px;
+  margin-right: 150px;
+  margin-top: 40px;
+  float: right;
+  box-shadow: 0 8px 8px -4px rgb(74, 72, 72);
+}

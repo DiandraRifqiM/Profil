@@ -1,5 +1,5 @@
 .Zyzz {
-  margin-top: 100px;
+  margin-top: 80px;
   width: 380px;
   height: 380px;
   border-radius: 50%;
@@ -16,9 +16,9 @@
   margin: 170px;
 }
 
-body {
+.Badan {
   background-color: rgb(202, 141, 221);
-  height: 1000px;
+  height: max-content;
 }
 
 .Profil {
@@ -45,14 +45,76 @@ body {
   box-shadow: 0 8px 8px -4px rgb(74, 72, 72);
 }
 
+.ASU {
+  text-decoration: none;
+  color: black;
+}
+
 .FavMusic {
+  display: block;
   width: 250px;
   border-radius: 10px;
   background-color: rgb(64, 230, 224);
   padding: 30px;
   font-size: 25px;
   margin-right: 150px;
-  margin-top: 40px;
+  /*margin-top: 40px;*/
   float: right;
   box-shadow: 0 8px 8px -4px rgb(74, 72, 72);
+}
+
+.Gym {
+  background-color: rgb(64, 230, 224);
+  height: max-content;
+}
+
+.Penjelasan {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 40px;
+  background-color: rgb(222, 230, 100);
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  margin-left: 460px;
+  box-shadow: 0 8px 8px -4px rgb(74, 72, 72);
+}
+
+.WhyGym {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 50px;
+  background-color: rgb(85, 77, 238);
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  margin-left: 260px;
+  box-shadow: 0 8px 8px -4px rgb(74, 72, 72);
+}
+
+.FavWorkout {
+  width: 300px;
+  border-radius: 10px;
+  background-color: rgb(243, 125, 208);
+  float: right;
+  margin-right: 150px;
+  box-shadow: 0 8px 8px -4px rgb(74, 72, 72);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.Back {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.back a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.back a:hover {
+  background-color: #111;
 }
